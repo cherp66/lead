@@ -1,0 +1,9 @@
+# phpstorm and vscode project files 
+.idea
+.vscode
+
+# data
+/data
+
+# composer vendor dir
+/vendor

@@ -1,0 +1,32 @@
+{
+    "name": "nikolay-twin/lead",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolay-Cherpinskiy",
+            "email": "twin-ss@mail.ru"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cherp66/dic"
+        }
+    ],  
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "vladimir163/lead-generator": "*",
+        "psr/container": "~1.0",
+        "cherp66/dic" : "dev-main",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeadGenerator\\": "vendor/vladimir163/lead-generator/src/",
+            "Chsoft\\Dic\\": "vendor/cherp66/dic/src/",
+            "app\\": "app/"
+        }
+    } 
+}
